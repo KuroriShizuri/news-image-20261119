@@ -9,26 +9,30 @@ world news in one image.
 
 `main.py` (Python 3.13, stdlib only, no network) copies the bundled
 newspaper front page `entry.png` (1024×1024 JPEG, under 1 MiB) to
-`/output/entry.png`. The copy is byte-identical on every run.
+`/output/entry.png`. The copy is byte-identical on every run, verified
+afterwards by file size and SHA-256 digest.
 
 ## What the front page shows
 
 Researched from the day's reporting (19 November 2026):
 
-1. **GTA VI launches worldwide** — gamers enter Vice City as the
-   long-awaited game begins its global rollout.
+1. **GTA VI launches worldwide** — after a 13-year wait, the game is out
+   and gamers enter Vice City; pre-order records broken.
 2. **Jeffries set to be first Black Speaker** — Democrats nominate Hakeem
    Jeffries for Speaker of the US House of Representatives.
 3. **US and Iran trade fire again** — Iran widens its attacks on US sites
-   in the Gulf states of Bahrain and Kuwait.
-4. **Trump, Xi and Putin meet in Shenzhen** — rare trilateral talks on
-   trade and security at the APEC summit.
-5. **EU proposes €45bn Ukraine loan** — to be repaid after Russia pays
-   reparations.
-6. **Voyager 1: one light-day from Earth** — the farthest any human-made
-   object has travelled.
-7. **Cyclone Akvan nears India's east coast** — landfall expected with
-   warnings issued.
+   in the Gulf, striking Bahrain and Kuwait; the US hit a missile site on
+   Qeshm Island.
+4. **Trump, Xi and Putin meet in Shenzhen** — the three leaders sit down
+   together for the first time, at the APEC summit.
+5. **EU proposes €45bn Ukraine loan** — to be repaid only once Russia pays
+   reparations; otherwise frozen Russian assets may be used.
+6. **Voyager 1: one light-day from Earth** — the first human-made object
+   to reach the mark, 16 billion miles out; a radio signal now takes a
+   full day each way.
+7. **Cyclone Akvan nears India's east coast** — a severe cyclonic storm in
+   the Bay of Bengal; red alerts for coastal Andhra Pradesh and Odisha
+   on 19–20 November, landfall expected around noon on 20 November.
 
 ---
 
