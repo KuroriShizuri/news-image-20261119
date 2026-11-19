@@ -8,13 +8,23 @@ Entry for make.fun competition `news-image-20261119`: sum up 19 November's
 world news in one image.
 
 `main.py` (Python 3.13, stdlib only, no network) copies the bundled
-newspaper front page `entry.png` (1024×1024 JPEG, under 1 MiB) to
-`<MAKEFUN_OUTPUT_DIR>/entry.png` (`/output` by default). Before copying
-it checks the source image's magic bytes (JPEG or PNG) and prints a
-confirmation line with the byte count. The copy is byte-identical on
-every run, verified afterwards by file size and SHA-256 digest.
+cover artwork `entry.png` (1024×1024 JPEG, 309,743 bytes — under the
+1 MiB limit) to `<MAKEFUN_OUTPUT_DIR>/entry.png` (`/output` by default).
+Before copying it checks the source image's magic bytes (JPEG or PNG)
+and prints a confirmation line with the byte count. The copy is
+byte-identical on every run, verified afterwards by file size and
+SHA-256 digest.
 
-## What the front page shows
+## What the cover shows
+
+The design follows The Economist's *The World Ahead 2027* cover
+(17 November 2026, art by Cleon Peterson): one crowded round globe,
+packed edge-to-edge with tiny flat silhouettes, in a strict
+red/black/white palette — no gradients, no photographic shading.
+Faceless black-figure silhouettes, forces rather than people: the
+powerful stand on top of the globe, small displaced figures crowd
+the bottom. Every element stands for one of the day's stories,
+named in the cover lines below the globe.
 
 Researched from the day's reporting (19 November 2026):
 
