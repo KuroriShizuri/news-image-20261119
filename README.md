@@ -9,8 +9,10 @@ world news in one image.
 
 `main.py` (Python 3.13, stdlib only, no network) copies the bundled
 newspaper front page `entry.png` (1024×1024 JPEG, under 1 MiB) to
-`/output/entry.png`. The copy is byte-identical on every run, verified
-afterwards by file size and SHA-256 digest.
+`<MAKEFUN_OUTPUT_DIR>/entry.png` (`/output` by default). Before copying
+it checks the source image's magic bytes (JPEG or PNG) and prints a
+confirmation line with the byte count. The copy is byte-identical on
+every run, verified afterwards by file size and SHA-256 digest.
 
 ## What the front page shows
 
